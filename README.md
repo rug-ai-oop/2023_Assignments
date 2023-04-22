@@ -12,7 +12,7 @@ In addition to the basic rules above, there are a few special cards:
 - **Ace Reverse**: Whenever a player plays an Ace, the direction of play reverses.
 - **Draw Two**: Whenever a player plays a 2, the next player must draw 2 cards before their turn starts. Note that in this variation of the game, it is not allowed to stack 2s.
 - **Queen Skip**: Whenever a player plays a Queen, the next player skips their turn.
-- **Crazy Eights**: Players may always play an 8, even if it does not match the suit or rank of the top card of the discard pile. If a player plays an 8, they choose a suit. The 8 that is now on top of the discard pile is now treated as if it were of the chosen suit. For example, if a player plays the 8 of Hearts and chooses Diamonds, the next player can only play another 8, or any Diamonds card. They cannot play any Hearts card (unless it is the 8 of Hearts).
+- **Crazy Eights**: Players may always play an 8, even if it does not match the suit or rank of the top card of the discard pile. If a player plays an 8, they choose a suit. The 8 that is now on top of the discard pile is now treated as if it were of the chosen suit. For example, if a player plays the 8 of Hearts and chooses Diamonds, the next player can only play another 8, or any Diamonds card. They cannot play any Hearts card.
 
 ## Implementation
 
