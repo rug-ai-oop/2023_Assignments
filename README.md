@@ -1,18 +1,16 @@
-# Object Oriented Programming
+# Crazy Eights - GUI
 
-Welcome to the assignment repository of Object Oriented Programming 2022/2023. On this repository, the assignments for this course will be published. Every assignment will be published on its own branch. Make sure you `checkout` the appropriate branch.
+In the first assignment, you implemented a variation of the Crazy Eights card game, including a player class, a card class, and a game controller class. In this assignment, you will create a GUI for this game. In this GUI, the user should be able to take the role of a player. In this capacity, the user should be able to:
 
-The deadlines for handing in the assignments are as follows:
+- See all the cards in their own hand.
+- See the top card of the discard pile.
+- See the number of cards in the hand of their opponent(s).
+- Choose a card from their hand to play whenever it is their turn.
+- Choose to draw a card from the deck whenever it is their turn.
+- Choose a suit whenever they play an eight.
 
-1. Hello World
-    - Branch `helloworld`
-	- Deadline (optional): 28 April, 22:00
-2. Crazy Eights
-	- Branch `crazyeights`
-	- Deadline: 4 May, 22:00
-3. GUI
-	- Branch `gui`
-	- Deadline: 19 May, 22:00
-4. RPG
-	- Branch `rpg`
-	- Deadline: 17 June, 23:59
+As in the original game, the player should not be able to cheat. In particular, the player should not be able to draw cards, play cards, or choose a suit if it is not their turn.
+
+Your implementation should observe the Model-View-Controller pattern. Your implementation of the first assignment will function as the model. If you were unable to complete the first assignment, there will be implementation that you can use on the branch `crazyeights-model` of the repository `2023_assignments` starting 12 May. You may need to make some changes to your model to make it functional in an event-based GUI setting. 
+
+Deadline: 19 May, 22:00
