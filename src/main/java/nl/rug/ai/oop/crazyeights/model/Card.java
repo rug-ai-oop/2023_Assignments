@@ -79,7 +79,7 @@ public abstract class Card {
 	 * @return true iff this card is legal to play on top of other
 	 */
 	protected boolean isPlayableOn(Card other) {
-		return other.suit.equals(this.suit) || other.value == this.value;
+		return other == null || other.suit.equals(this.suit) || other.value == this.value;
 	}
 
 	/**

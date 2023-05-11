@@ -282,6 +282,7 @@ public class CrazyEights {
 	private void checkEndGame() {
 		for (List<Card> hand : hands.values()) {
 			if (hand.size() < 1) {
+				System.out.println("The game has ended");
 				state = GameState.INACTIVE;
 				return;
 			}
