@@ -21,7 +21,7 @@ Your RPG should have the features listed below. Each team member takes responsib
 	- It must be possible for interaction with NPCs to have lasting effects on the game world outside of the NPCs themselves. For example, interacting with NPCs may unlock locations, or add items to the inventory system.
 - Player classes
 	- Players must have a free choice among several player classes. 
-	- Player classes should meaningfully change the game. For example, you may implement warriors that deal high damage at short range and archers that deal lower damage at long range. Alternatively, you could implement traits such as charisma or intelligence, which may change what conversation options are open to users ay key points in the game.
+	- Player classes should meaningfully change the game. For example, you may implement warriors that deal high damage at short range and archers that deal lower damage at long range. Alternatively, you could implement traits such as charisma or intelligence, which may change what conversation options are open to users as key points in the game.
 
 In addition, there are some general requirements that every team member should implement for their own feature:
 - The player should be able to save and restore their game state at any time.
